@@ -1,0 +1,26 @@
+{
+  "name": "pedido-pmg-nv2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "assets:generate": "npx @capacitor/assets generate --android --ios --iconBackgroundColor=#128c4a --splashBackgroundColor=#ffffff",
+    "cap:sync": "npm run build && cap sync",
+    "android:open": "npm run cap:sync && cap open android",
+    "ios:open": "npm run cap:sync && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/app-launcher": "^8.0.1",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/ios": "^8.6.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2",
+    "vite": "^8.3.8"
+  }
+}

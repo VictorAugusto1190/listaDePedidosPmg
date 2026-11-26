@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" rx="220" fill="#128c4a"/>
+  <rect x="112" y="112" width="800" height="800" rx="172" fill="#ffffff"/>
+  <text x="512" y="535" text-anchor="middle" fill="#0b6b36" font-family="Arial, sans-serif" font-size="218" font-weight="700" letter-spacing="-8">PMG</text>
+  <path d="M288 630h448" stroke="#d4a72c" stroke-linecap="round" stroke-width="20"/>
+  <text x="512" y="750" text-anchor="middle" fill="#0b6b36" font-family="Arial, sans-serif" font-size="96" font-weight="700" letter-spacing="10">NV2</text>
+</svg>

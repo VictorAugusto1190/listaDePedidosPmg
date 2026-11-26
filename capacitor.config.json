@@ -1,0 +1,8 @@
+{
+  "appId": "br.com.pedidopmg.app",
+  "appName": "Pedido PMG NV2 clube de campo",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
